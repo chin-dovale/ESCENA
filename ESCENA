@@ -1,0 +1,64 @@
+background(0);
+size(300,300);
+
+//Luna
+noStroke();
+fill(248,229,173);
+ellipse(50,50,60,60);
+//Manchas Luna
+noStroke();
+fill(189,143,86,80);
+ellipse(40,45,10,10);
+ellipse(60,60,11,11);
+ellipse(45,65, 20,20);
+
+//Punta cohete
+fill(120,22,91);
+triangle(150,30,100,120,200,120);
+
+//Cuerpo Cohete
+fill(57,80,108);
+rect(100,120,100,150);
+
+//Franjas Cohete
+fill(120,22,91);
+rect(100,180,100,20);
+rect(100,210,100,20);
+rect(100,240,100,20);
+
+
+//Ventanilla
+fill(180);
+ellipse(150,150,40,40);
+fill(162,206,234);
+ellipse(150,150,30,30);
+
+
+//Alitas Cohete
+fill(150);
+triangle(100,180,60,270,100,270);
+triangle(200,180,240,270,200,270);
+
+
+
+//nube de despegue
+fill(255,240);
+noStroke();
+
+ellipse(30,290,20,20);
+ellipse(60,300,20,20);
+
+ellipse(150,270,20,20);
+ellipse(230,290,20,20);
+ellipse(270,290,20,20);
+
+ellipse(240,270,40,40);
+ellipse(200,260,40,40);
+ellipse(170,280,40,40);
+ellipse(150,290,40,40);
+ellipse(220,280,40,40);
+ellipse(70,280,40,40);
+
+ellipse(200,290,60,60);
+ellipse(110,280,60,60);
+ellipse(250,300,50,50);
